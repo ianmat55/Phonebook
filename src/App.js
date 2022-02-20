@@ -14,7 +14,7 @@ const App = () => {
     .then(res => {
       setPersons(res.data)
     })
-  }, [message]);
+  }, []);
   const [newName, setNewName] = useState('');
   const [newNumber, setNewNumber] = useState('');
   const [newFilter, setNewFilter] = useState('');
